@@ -95,11 +95,11 @@ DZOauctions:
             accelerator: 720
             tender:  [0, 20]
         dgfFinancialAssets:
-           accelerator: 1440
-           auction:  [70, 75]
+           accelerator: 144
+           auction:  [115, 120]
         dgfOtherAssets:
-            accelerator: 1440
-            auction:  [70, 75]
+            accelerator: 144
+            auction:  [115, 120]
     keywords_file: dzo
     roles:
         tender_owner:   DZO_Owner_auction
@@ -766,3 +766,21 @@ epsilon:
             tender:  [0, 25]
             auction: [25, 30]
     timeout_on_wait: 10
+byustudio:
+    intervals:
+        default:
+            enquiry: [0, 17]
+            tender:  [0, 19]
+        dgfFinancialAssets:
+            accelerator: 144
+            auction:  [75, 80]
+        dgfOtherAssets:
+            accelerator: 144
+            auction:  [75, 80]
+    keywords_file: byustudio
+    roles:
+        tender_owner:   byustudio_Owner_auction
+        provider:   byustudio_Provider_auction
+        provider1:   byustudio_Provider1_auction
+        viewer:   byustudio_Viewer_auction
+    timeout_on_wait: 180
