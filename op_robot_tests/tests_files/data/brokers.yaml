@@ -773,10 +773,10 @@ byustudio:
             tender:  [0, 19]
         dgfFinancialAssets:
             accelerator: 144
-            auction:  [75, 80]
+            auction:  [85, 90]
         dgfOtherAssets:
             accelerator: 144
-            auction:  [75, 80]
+            auction:  [85, 90]
     keywords_file: byustudio
     roles:
         tender_owner:   byustudio_Owner_auction
