@@ -29,13 +29,22 @@ Default:
             # This is not a name of period
             # Please refer to API documentation to find out what's this
             accelerator: 1440
+        openua:
+            accelerator: 1440
+            tender:  [0, 15]
+            # Please remember that openUA and openEU procedures
+            # forbid anyone to set or modify enquiryPeriod
+            # (it is set automatically)
+        openeu:
+            accelerator: 1440
+            tender:  [0, 30]
+        open_competitive_dialogue:
+            accelerator: 1440
+            tender:  [0, 30]
         dgfFinancialAssets:
            accelerator: 1440
            auction:  [25, 30]
         dgfOtherAssets:
-            accelerator: 1440
-            auction:  [25, 30]
-        dgfInsider:
             accelerator: 1440
             auction:  [25, 30]
     # Synchronization delay, in seconds
@@ -965,3 +974,42 @@ tabua:
         tender_owner:   tabua_Owner
         viewer:         tabua_Viewer
     timeout_on_wait: 30
+byustudio:
+    intervals:
+        default:
+            enquiry: [0, 17]
+            tender:  [0, 19]
+        dgfFinancialAssets:
+            accelerator: 144
+            auction:  [75, 80]
+        dgfOtherAssets:
+            accelerator: 144
+            auction:  [75, 80]
+    keywords_file: byustudio
+    roles:
+        tender_owner:   byustudio_Owner_auction
+        provider:   byustudio_Provider_auction
+        provider1:   byustudio_Provider1_auction
+        viewer:   byustudio_Viewer_auction
+    timeout_on_wait: 180
+kpmgdealroom:
+    intervals:
+        default:
+            enquiry: [0, 20]
+            tender:  [0, 20]
+        openua:
+            accelerator: 720
+            tender:  [0, 20]
+        dgfFinancialAssets:
+           accelerator: 1440
+           auction:  [55, 65]
+        dgfOtherAssets:
+            accelerator: 1440
+            auction:  [55, 65]
+    keywords_file: kpmgdealroom
+    roles:
+        tender_owner:   kpmgdealroom_Owner
+        provider:       kpmgdealroom_Provider
+        provider1:      kpmgdealroom_Provider1
+        viewer:         kpmgdealroom_Viewer
+    timeout_on_wait: 15
