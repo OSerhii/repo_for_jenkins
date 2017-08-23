@@ -1001,11 +1001,11 @@ kpmgdealroom:
             accelerator: 720
             tender:  [0, 20]
         dgfFinancialAssets:
-           accelerator: 1440
-           auction:  [55, 65]
+           accelerator: 720
+           auction:  [60, 65]
         dgfOtherAssets:
-            accelerator: 1440
-            auction:  [55, 65]
+            accelerator: 720
+            auction:  [60, 65]
     keywords_file: kpmgdealroom
     roles:
         tender_owner:   kpmgdealroom_Owner

@@ -1762,42 +1762,42 @@ users:
         browser:  Firefox
         position: [0, 0]
         size:     [1366, 800]
-#    kpmgdealroom_Owner:
-#        broker:   kpmgdealroom
-#        homepage: "https://uat.kpmgdealroom.com/login"
-#        default_page: "https://uat.kpmgdealroom.com/dashboard"
-#        login:    kdruser104@kpmg.co.uk
-#        password: Admin12345
-#        browser:  chrome
-#        position: [0, 0]
-#        size:     [1024, 768]
     kpmgdealroom_Owner:
         broker:   kpmgdealroom
-        homepage: "https://test.kpmgdealroom.com/login"
-        default_page: "https://test.kpmgdealroom.com/dashboard"
-        login:    testkdruser1@kpmg.co.uk
-        password: Test!234
+        homepage: "https://uat.kpmgdealroom.com/login"
+        default_page: "https://uat.kpmgdealroom.com/dashboard"
+        login:    pztenderowner@kpmg.co.uk
+        password: Admin12345
         browser:  chrome
         position: [0, 0]
         size:     [1024, 768]
-#    kpmgdealroom_Provider1:
+#    kpmgdealroom_Owner:
 #        broker:   kpmgdealroom
-#        homepage: "https://uat.kpmgdealroom.com/login"
-#        default_page: "https://uat.kpmgdealroom.com/dashboard"
-#        login:    kdruser105@kpmg.co.uk
-#        password: Admin12345
+#        homepage: "https://test.kpmgdealroom.com/login"
+#        default_page: "https://test.kpmgdealroom.com/dashboard"
+#        login:    testkdruser1@kpmg.co.uk
+#        password: Test!234
 #        browser:  chrome
 #        position: [0, 0]
 #        size:     [1024, 768]
     kpmgdealroom_Provider1:
         broker:   kpmgdealroom
-        homepage: "https://test.kpmgdealroom.com/login"
-        default_page: "https://test.kpmgdealroom.com/dashboard"
-        login:    testkdruser2@kpmg.co.uk
-        password: Test!234
+        homepage: "https://uat.kpmgdealroom.com/login"
+        default_page: "https://uat.kpmgdealroom.com/dashboard"
+        login:    kdruser105@kpmg.co.uk
+        password: Deal12345
         browser:  chrome
         position: [0, 0]
         size:     [1024, 768]
+#    kpmgdealroom_Provider1:
+#        broker:   kpmgdealroom
+#        homepage: "https://test.kpmgdealroom.com/login"
+#        default_page: "https://test.kpmgdealroom.com/dashboard"
+#        login:    testkdruser2@kpmg.co.uk
+#        password: Test!234
+#        browser:  chrome
+#        position: [0, 0]
+#        size:     [1024, 768]
     kpmgdealroom_Provider:
         broker:   kpmgdealroom
         homepage: "https://test.kpmgdealroom.com/login"
@@ -1809,8 +1809,8 @@ users:
         size:     [1024, 768]
     kpmgdealroom_Viewer:
         broker:   kpmgdealroom
-        homepage: "https://test.kpmgdealroom.com/public/prozorro"
-        default_page: "https://test.kpmgdealroom.com/public/prozorro"
+        homepage: "https://uat.kpmgdealroom.com/public/prozorro"
+        default_page: "https://uat.kpmgdealroom.com/public/prozorro"
         browser:  chrome
         position: [0, 0]
         size:     [1024, 768]
