@@ -75,7 +75,7 @@ Etender:
             accelerator: 1440
             auction:  [110, 25]
         dgfInsider:
-            accelerator: 360
+            accelerator: 144
             auction:  [25, 30]
     keywords_file: etender
     roles:
@@ -358,16 +358,13 @@ Publicbid:
         dgfOtherAssets:
             accelerator: 288
             auction:  [15, 25]
-        dgfInsider:
-            accelerator: 288
-            auction:  [15, 25]
     keywords_file: publicbid
     roles:
         provider:       Publicbid_Provider1
         provider1:      Publicbid_Provider2
         tender_owner:   Publicbid_Owner
         viewer:         Publicbid_Viewer
-    timeout_on_wait: 120
+    timeout_on_wait: 80
 PublicPortal:
     keywords_file: publicportal
     roles:
@@ -852,20 +849,20 @@ epsilon:
             tender:  [0, 19]
         dgfFinancialAssets:
            accelerator: 144
-           auction:  [75, 80]
+           auction:  [35, 40]
         dgfOtherAssets:
             accelerator: 144
-            auction:  [75, 80]
+            auction:  [35, 40]
         dgfInsider:
             accelerator: 320
-            auction:  [25, 30]
+            auction:  [15, 20]
     keywords_file: epsilon
     roles:
         tender_owner:   epsilon_Owner_auction
         provider:   epsilon_Provider_auction
         provider1:   epsilon_Provider1_auction
         viewer:   epsilon_Viewer_auction
-    timeout_on_wait: 180
+    timeout_on_wait: 1
 palata:
     intervals:
         default:
@@ -1028,3 +1025,27 @@ tabua:
         tender_owner:   tabua_Owner
         viewer:         tabua_Viewer
     timeout_on_wait: 30
+kpmgdealroom:
+    intervals:
+        default:
+            enquiry: [0, 20]
+            tender:  [0, 20]
+        openua:
+            accelerator: 720
+            tender:  [0, 20]
+        dgfFinancialAssets:
+           accelerator: 360
+           auction:  [60, 65]
+        dgfOtherAssets:
+            accelerator: 360
+            auction:  [60, 65]
+        dgfInsider:
+            accelerator: 720
+            auction:  [25, 30]
+    keywords_file: kpmgdealroom
+    roles:
+        tender_owner:   kpmgdealroom_Owner
+        provider:       kpmgdealroom_Provider
+        provider1:      kpmgdealroom_Provider1
+        viewer:         kpmgdealroom_Viewer
+    timeout_on_wait: 60
