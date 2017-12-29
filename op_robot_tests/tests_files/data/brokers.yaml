@@ -123,6 +123,27 @@ DZOauctions:
         provider1:      DZO_Provider1_auction
         viewer:         DZO_Viewer_auction
     timeout_on_wait: 360
+auctionist:
+    intervals:
+        default:
+            enquiry: [0, 17]
+            tender:  [0, 19]
+        dgfFinancialAssets:
+           accelerator: 1440
+           auction:  [40, 45]
+        dgfOtherAssets:
+            accelerator: 1440
+            auction:  [40, 45]
+        dgfInsider:
+            accelerator: 1440
+            auction:  [25, 30]
+    keywords_file: auctionist
+    roles:
+        tender_owner:   auctionist_Owner
+        provider:   auctionist_Provider
+        provider1:   auctionist_Provider1
+        viewer:   auctionist_Viewer
+    timeout_on_wait: 1
 uaceauction:
     intervals:
         default:

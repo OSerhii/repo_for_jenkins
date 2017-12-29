@@ -131,6 +131,36 @@ users:
         browser:  Chrome
         position: [0, 0]
         size:     [1366, 800]
+    auctionist_Owner:
+        broker:   auctionist
+        homepage: "http://auctionist.byustudio.in.ua/"
+        login:    prozorroytenderowner@gmail.com
+        password: 123456
+        browser:  Chrome
+        position: [0, 0]
+        size:     [1366, 800]
+    auctionist_Provider:
+        broker:   auctionist
+        homepage: "http://auctionist.byustudio.in.ua/"
+        login:    prozorroyprovider1@gmail.com
+        password: 123456
+        browser:  Chrome
+        position: [0, 0]
+        size:     [1366, 800]
+    auctionist_Provider1:
+        broker:   auctionist
+        homepage: "http://auctionist.byustudio.in.ua/"
+        login:    prozorroyprovider2@gmail.com
+        password: 123456
+        browser:  Chrome
+        position: [0, 0]
+        size:     [1366, 800]
+    auctionist_Viewer:
+        broker:   auctionist
+        homepage: "http://auctionist.byustudio.in.ua/"
+        browser:  Chrome
+        position: [0, 0]
+        size:     [1366, 800]
     uace_Owner_auction:
         broker:   uaceauction
         homepage: "http://test-eauction.uace.com.ua"
