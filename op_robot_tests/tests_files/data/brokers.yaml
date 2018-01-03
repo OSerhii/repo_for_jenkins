@@ -144,6 +144,27 @@ auctionist:
         provider1:   auctionist_Provider1
         viewer:   auctionist_Viewer
     timeout_on_wait: 1
+25h8:
+    intervals:
+        default:
+            enquiry: [0, 17]
+            tender:  [0, 19]
+        dgfFinancialAssets:
+           accelerator: 144
+           auction:  [35, 40]
+        dgfOtherAssets:
+            accelerator: 144
+            auction:  [35, 40]
+        dgfInsider:
+            accelerator: 320
+            auction:  [25, 30]
+    keywords_file: 25h8
+    roles:
+        tender_owner:   b25h8_Owner
+        provider:       b25h8_Provider
+        provider1:      b25h8_Provider1
+        viewer:         b25h8_Viewer
+    timeout_on_wait: 1
 uaceauction:
     intervals:
         default:
